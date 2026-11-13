@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model weights
+models/weights/*.h5
+models/weights/*.keras
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+tf_metal/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
